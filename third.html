@@ -5,13 +5,33 @@
   <title>HoneyBee's JavaScript study</title>
   <meta charset="utf-8">
 </head>
-
+<style>
+a {
+  color:black;
+  text-decoration: none;
+}
+h1 {
+  font-size: 40px;
+  text-align: center;
+}
+p {
+  font-size: medium;
+  text-align: justify;
+}
+.saw {
+  color:gray;
+}
+#active {
+  color:red;
+  text-decoration:underline;
+}
+</style>
 <body>
   <h1><a href="index.html">HoneyBee's WEB study</a></h1>
-  <ol>
-    <li><a href="first.html">HTML</a></li>
-    <li><a href="second.html">CSS</a></li>
-    <li><a href="third.html">JavaScript</a></li>
+  <ol style="font-size: 25px;">
+    <li><a href="first.html" class="saw">HTML</a></li>
+    <li><a href="second.html" class="saw">CSS</a></li>
+    <li><a href="third.html" class="saw" id="active">JavaScript</a></li>
   </ol>
   <h2>JavaScript</h2>
   <p>
